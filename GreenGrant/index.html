@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenGrant - Ontario Subsidy Finder</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">🌱 GreenGrant</div>
+        </div>
+    </nav>
+
+    <section id="screen1" class="screen active">
+        <div class="container">
+            <div class="hero">
+                <h1>Find Ontario Energy Incentives You Qualify For</h1>
+                <p class="subtitle">Discover rebates for heat pumps, solar, insulation, EV chargers, and more.</p>
+            </div>
+
+            <div class="form-card">
+                <form id="subsidyForm">
+                    <div class="form-group">
+                        <label for="postalCode">Postal Code</label>
+                        <input type="text" id="postalCode" name="postalCode" placeholder="e.g., M5H 2N2" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="city">City / Town</label>
+                        <input type="text" id="city" name="city" placeholder="e.g., Toronto" required>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="homeType">Home Type</label>
+                            <select id="homeType" name="homeType" required>
+                                <option value="">Select...</option>
+                                <option value="apartment">Apartment/Condo</option>
+                                <option value="detached">Detached</option>
+                                <option value="semi">Semi-Detached</option>
+                                <option value="townhouse">Townhouse</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="ownership">Own or Rent</label>
+                            <select id="ownership" name="ownership" required>
+                                <option value="">Select...</option>
+                                <option value="own">Own</option>
+                                <option value="rent">Rent</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="income">Income Range</label>
+                        <select id="income" name="income" required>
+                            <option value="">Select...</option>
+                            <option value="under50k">Under $50,000</option>
+                            <option value="50k-100k">$50,000 - $100,000</option>
+                            <option value="100k-150k">$100,000 - $150,000</option>
+                            <option value="over150k">Over $150,000</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Areas of Interest</label>
+                        <div class="checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="interests" value="Heat Pump">
+                                <span>Heat Pump</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="interests" value="Insulation">
+                                <span>Insulation</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="interests" value="Solar">
+                                <span>Solar</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="interests" value="EV Charger">
+                                <span>EV Charger</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="interests" value="Efficient Appliances">
+                                <span>Efficient Appliances</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn-primary">See My Eligible Subsidies</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="screen2" class="screen">
+        <div class="container">
+            <div class="results-header">
+                <h1>Your Eligible Subsidies</h1>
+                <button id="backBtn" class="btn-secondary">← Back to Form</button>
+            </div>
+
+            <div id="resultsContainer" class="results-container">
+            </div>
+        </div>
+    </section>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modalTitle"></h2>
+            <div class="modal-body">
+                <div class="modal-section">
+                    <h3>Full Description</h3>
+                    <p id="modalDescription"></p>
+                </div>
+                <div class="modal-section">
+                    <h3>Eligibility Requirements</h3>
+                    <p id="modalEligibility"></p>
+                </div>
+                <div class="modal-section">
+                    <a href="#" class="btn-link" target="_blank">Learn More →</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
