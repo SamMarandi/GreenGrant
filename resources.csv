@@ -1,0 +1,43 @@
+id,name,link,sub_type,resource_type,description,location,ownership_required,income_eligibility,building_age_req,home_type,gov_lvl,contractor_required,amount,notes
+1,Home Renovation savings,https://www.homerenovationsavings.ca/without-assessment,Rebate,"Solar, heat",Government gives you rebates for making your home more energy efficient ,Ontario,Yes,,Must have occupied for 6 months,"Single detached, semi-detached, townhomes, mobile homes on permanent foundation",Provincial ,Yes,Visit site,"Be an Enbridge Gas customer with an active account and primarily heat your home with a natural gas furnace or boiler OR be connected to the Ontario electricity grid and heat your home with electricity, propane, oil or wood.
+"
+2,Ontario Electricity Rebate,https://www.ontario.ca/page/manage-energy-costs-your-home#section-1,Rebate,Electricity ,A long-term rebate applied directly on electricity bills,Ontario,No ( for electricity customers),,,"Household, Farms, Longterm care homes, Small businesses",Provincial ,No,13.10%,"Already applied automatically for most customers. Get credits on your bill through programs based on your location and income.
+
+Most residential consumers, farms and many small businesses in Ontario will receive a reduction on their bill through the Ontario Electricity Rebate. You may also receive further reductions on your bill if you're a customer of:
+
+Hydro One (low and medium density customers)
+Northern Ontario Wires
+Chapleau Public Utilities Corporation
+Sioux Lookout Hydro
+InnPower
+Atikokan Hydro
+Algoma Power
+The credit you receive will vary depending on your distribution company. Starting November 1, 2019, if you receive support through more than one provincial program, you will also see a separate message that summarizes the total Ontario support provided to help reduce your hydro bill.
+
+The RRRP program is designed to support eligible customers in rural or remote areas with electricity costs, where the costs of distributing electricity to these customers are higher. The RRRP revenue allows rural and remote electricity distributors to reduce the amount they would otherwise have to charge eligible customers for distribution service."
+3,Energy Affordibility Program,https://www.ontario.ca/page/manage-energy-costs-your-home#section-1,Free assistance + Upgrades,Electricity/ Efficiency ,"The Energy Affordability Program provides personalized, free electricity-saving measures to help with your home electricity bills. Through the program, participating households can reduce their electricity bills by between $100 and $750 per year, depending on eligibility, and increase their home comfort.",Ontario,"Homeowners
+Tenants (with the consent of building owner or manager)
+Social housing providers
+Income-eligible Indigenous people connected to the Independent Electricity System Operator (IESO)-controlled electricity grid, including within on-reserve First Nations communities","
+Number of people in the home        Before-tax household income
+1        $47,090
+2        $66,595
+3        $81,561
+4        $94,179
+5        $105,295
+6        $115,345
+7+        $124,586",,,Provincial ,"Yes — a trained energy professional comes to do an assessment, and upgrades are done via program delivery agents. ",Estimated $100-$750 in savings ,"To qualify, the participant must be: A resident of an eligible Social Housing property, OR An individual who owns, rents or leases a residence, is listed as the primary or secondary utility account holder, AND meets ONE of the following criteria: see income eldigbliity.
+
+Received assistance from one of the following programs in the past 12 months: Allowance for Seniors, Allowance for the Survivor, Guaranteed Income Supplement, Healthy Smiles Ontario Child Dental Program, Home Winterproofing Program (HWP), Low-Income Energy Assistance Program (LEAP), Ontario Disability Support Program (ODSP), Ontario Electricity Support Program (OESP), Ontario Works"
+4,Low-Income Energy Assistance Program (LEAP),https://www.oeb.ca/consumer-information-and-protection/bill-assistance-programs/low-income-energy-assistance-program,Grant,Electricity/gas bills,Provides emergency financial help for people behind on their electricity or natural gas bills,Ontario,No (bill account holders),Visit site,,,Provincial ,No,"Up to $650 for electricity and upto $780 if eletrically heated, $650 for natural gas bills",
+5,Ontario Electricity Support Program (OESP),https://ontarioelectricitysupport.ca/?lang=en/,On bill credit,Electricity bills,Monthly credit on electricity bills for low-income households,Ontaraio,No ( electricity account holder),Visit site,,Residential,Provincal,No,Visit site,
+6,Peak Perks Program,https://saveonenergy.ca/For-Your-Home/Peak-Perks,Rebate / Reward,Electricity ,Incentive to reduce electricity use during peak periods by adjusting your smart thermostat,Ontario,"No, but requires having a smart thermostat + central A/C or heat pump (Ontario)",,,Homes with elidgible thermostat,Provincial ,Yes,$75 prepaid credit card for participating; +$20/year extra after 2024 if re-enrolled.,
+7,Home Winterproofing Program,https://www.enbridgegas.com/ontario/rebates-energy-conservation/home-winterproofing-program?utm_source=google&utm_medium=search&utm_campaign=ENB-2059-Home-Winterproofing-Program-HWP-Q2-google-search-Standard&utm_id=ENB-2059&gad_source=1&gclid=CjwKCAjwps-zBhAiEiwALwsVYVfP95UHWgj6Lcgo3yVFOpXjVkvUtT5VgN9uFjJfSmlOdrZh7W55_xoC0BoQAvD_BwE,"Free upgrades (insulation and draft proofing, ETC.). Installation included",Natural Gas,"Helps low-income Enbridge Gas customers with free insulation, draft proofing, and smart thermostats",Customers of Enbridge Gas in Ontario,Yes,Visit site,,Residential,Provinical ,Yes,Not explicitly dollar rebate — free upgrades provided,
+8,Tax Credits (Energy & Property Tax Credit / Northern Ontario Energy Credit),https://www.ontario.ca/page/ontario-trillium-benefit#section-3,Tax Credit,Property / Energy,Tax credits for low-to-moderate income Ontarians to help with energy and property tax costs,Ontario,Yes,Visit site,,,Prinvincal ,No ,"Up to $1,283 for the main program; up to $1,461 for eligible seniors. (Ontario)",
+9,First Nations / On-Reserve Conservation Programs,https://saveonenergy.ca/First-Nations-Energy-Programs,Free/Credit,Efficiency & Conservation,"Various energy-efficiency supports tailored for on-reserve First Nations (weatherization, conservation, billing credits)","Ontario- First Nations, on reserve",Yes,,,On-reserve homes or band-owned buildings,Provincial ,Yes — delivered by IESO through Save on Energy,,
+10,Home Energy Loan Program,https://www.toronto.ca/services-payments/water-environment/environmental-grants-incentives/home-energy-loan-program-help/,Loan,"Energy efficiency / clean energy / retrofit: heat pumps, insulation, windows, solar PV, battery storage, EV charging, water heaters, etc.","A municipal program to help Toronto homeowners finance energy-efficient and low-carbon retrofits. Homeowners can borrow up to $125,000 to cover retrofit costs, repay via their property tax bill, and combine with other rebates & grants. ",City of Toronto,Yes,,,"Eligible: Detached, semi-detached, row house, duplex, triplex, or any low-rise residential building (max 3 storeys, up to 6 units",Municipal (Toronto),Yes,"Up to $125,000 per property","Fixed rates: (as of latest published) 5-year: 3.08%, 10-year: 3.92%, 15-year: 4.41%, 20-year: 4.67%. 
+
+Repayment: Through your tax bill (11 payments per yea). The load is attached to the property ( not the owner), so if you sell, The new owner assumes the loan.
+
+Additonal Incentives/Payments: Rooftop Solar PV - $1000 incentive."
+11,Canada Greener Homes Grant,https://natural-resources.canada.ca/energy-efficiency/home-energy-efficiency/canada-greener-homes-initiative/canada-greener-homes-grant,Grant,"Energy-efficiency retrofits (insulation, air-sealing, windows, doors, thermostats), heat pumps (air-source, ground-source), heat-pump water heaters, solar PV, resiliency measures (e.g., batteries)",Provides financial support (grant) to homeowners to complete pre- and post-retrofit EnerGuide evaluations and make energy-efficient or low-carbon retrofits to their homes.,Canada,Yes,,"Retrofits must be done after December 1, 2020. Pre-retrofit evaluation must be newer than April 1, 2020 if you want to participate.","Eligible property types: existing single and semi-detached homes, row housing / townhomes, mobile homes on a permanent foundation, low-rise multi-unit residential buildings (3 storeys or less).",Federal,Yes,Visit site,

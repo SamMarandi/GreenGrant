@@ -12,6 +12,25 @@ body {
     min-height: 100vh;
 }
 
+footer {
+    background: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.textbox {
+    text-align: center;
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    color: black;
+    margin: 10px;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
