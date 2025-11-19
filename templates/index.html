@@ -10,21 +10,12 @@
 
             <div class="form-card">
                 <form id="subsidyForm">
-                    <div class="form-group">
-                        <label for="postalCode">Postal Code</label>
-                        <input type="text" id="postalCode" name="postalCode" placeholder="e.g., M5H 2N2" required>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="city">City / Town</label>
-                        <input type="text" id="city" name="city" placeholder="e.g., Toronto" required>
-                    </div>
 
                     <div class="form-row">
                         <div class="form-group">
                             <label for="homeType">Home Type</label>
                             <select id="homeType" name="homeType" required>
-                                <option value="">Select...</option>
+                                <option value="" selected>Select...</option>
                                 <option value="apartment">Apartment/Condo</option>
                                 <option value="detached">Detached</option>
                                 <option value="semi">Semi-Detached</option>
@@ -36,7 +27,7 @@
                         <div class="form-group">
                             <label for="ownership">Own or Rent</label>
                             <select id="ownership" name="ownership" required>
-                                <option value="">Select...</option>
+                                <option value="" selected>Select...</option>
                                 <option value="own">Own</option>
                                 <option value="rent">Rent</option>
                             </select>
@@ -44,38 +35,43 @@
                     </div>
 
                     <div class="form-group">
-                        <label for="income">Income Range</label>
-                        <select id="income" name="income" required>
-                            <option value="">Select...</option>
-                            <option value="under50k">Under $50,000</option>
-                            <option value="50k-100k">$50,000 - $100,000</option>
-                            <option value="100k-150k">$100,000 - $150,000</option>
-                            <option value="over150k">Over $150,000</option>
-                        </select>
-                    </div>
-
-                    <div class="form-group">
-                        <label>Areas of Interest</label>
+                        <label>Resource Type</label>
                         <div class="checkbox-group">
                             <label class="checkbox-label">
-                                <input type="checkbox" name="interests" value="Heat Pump">
-                                <span>Heat Pump</span>
+                                <input type="checkbox" name="type" value="Heat">
+                                <span>Heat</span>
                             </label>
                             <label class="checkbox-label">
-                                <input type="checkbox" name="interests" value="Insulation">
+                                <input type="checkbox" name="type" value="Insulation">
                                 <span>Insulation</span>
                             </label>
                             <label class="checkbox-label">
-                                <input type="checkbox" name="interests" value="Solar">
+                                <input type="checkbox" name="type" value="Solar">
                                 <span>Solar</span>
                             </label>
                             <label class="checkbox-label">
-                                <input type="checkbox" name="interests" value="EV Charger">
+                                <input type="checkbox" name="type" value="EV Charger">
                                 <span>EV Charger</span>
                             </label>
                             <label class="checkbox-label">
-                                <input type="checkbox" name="interests" value="Efficient Appliances">
-                                <span>Efficient Appliances</span>
+                                <input type="checkbox" name="type" value="Windows">
+                                <span>Windows</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="type" value="Electricity">
+                                <span>Electricity</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="type" value="Gas">
+                                <span>Gas</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="type" value="Energy">
+                                <span>Energy</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="type" value="All">
+                                <span>All</span>
                             </label>
                         </div>
                     </div>
@@ -118,5 +114,5 @@
         </div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
 {% endblock %}
